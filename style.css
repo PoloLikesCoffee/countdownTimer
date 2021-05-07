@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    
+    /*background-image: url("./osakaAtNight.jpg");*/
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdownContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textStyle {
+    font-weight: bold;
+    font-size:6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdownText {
+    text-align: center;
+}
+
+.countdownText span{
+    font-size: 1.5rem;
+}
+
+.morningTime {
+    background-image: url("./morningTime.jpg");
+    color: black;
+    transition: background-image 5s ease-in;
+}
+
+.dayTime {
+    background-image: url("./dayTime.jpg");
+    color: white;
+    transition: background-image 5s ease-in;
+}
+
+.eveningTime {
+    background-image: url("./eveningTime.jpg");
+    color: white;
+    transition: background-image 5s ease-in;
+}
+
+.nightTime {
+    background-image: url("./nightTime.jpg");
+    color:white;
+    transition: background-image 5s ease-in;
+}
