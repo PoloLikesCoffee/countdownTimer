@@ -4,8 +4,6 @@
 
 body {
     font-family: monospace;
-    
-    /*background-image: url("./osakaAtNight.jpg");*/
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -15,11 +13,26 @@ body {
     margin: 0;
 }
 
+#theDate {
+    margin-top: 3rem;
+	padding: 0.5rem;
+	border: 0;
+	border-radius: 3px;
+	font-size: 1rem;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+#theDate:focus {
+    outline: none;
+}
+
 h1 {
     text-align: center;
     font-weight: normal;
-    font-size: 4rem;
-    margin-top: 5rem;
+    font-size: 3.5rem;
+    margin-top: 3rem;
 }
 
 .countdownContainer {
@@ -30,7 +43,7 @@ h1 {
 
 .textStyle {
     font-weight: bold;
-    font-size:6rem;
+    font-size:5rem;
     line-height: 1;
     margin: 1rem 2rem;
 }
